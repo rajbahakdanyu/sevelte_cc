@@ -1,5 +1,5 @@
 <script>
-    import { FeedbackList } from "./components/FeedbackList.svelte"
+    import FeedbackList from "./components/FeedbackList.svelte"
 
     let feedback = [
         {
@@ -21,5 +21,5 @@
 </script>
 
 <main>
-    <FeedbackList />
+    <FeedbackList {feedback} />
 </main>
